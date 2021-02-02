@@ -1,0 +1,261 @@
+/*------------------------------------GENERAL-----------------------------------*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #042D42;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #eb596e;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 8px dotted;
+  width: 10%;
+  color: #042D42;
+}
+
+/*-----------------------------------------HEADER-----------------------------------*/
+
+.button-menu {
+  background-color: #254F89;
+  width: 100%;
+  z-index: 100;
+}
+
+.button-menu-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.top-button {
+  background-color: #254F89;
+  height: 90px;
+}
+
+.btn-top {
+  background-color: #254F89;
+  border: solid;
+  border-radius: 100px;
+  border-width: thin;
+  border-color: #8CE1F1;
+  height: 50px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  font-size: 19px;
+  font-weight: 300;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.btn-top:hover {
+  background-color: #8CE1F1;
+}
+
+/*----------------------------------------------TOP CONTAINER---------------------------------------------*/
+
+.top-container {
+  background-color: #254F89;
+  padding-top: 400px;
+  position: relative;
+  height: 370px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 500%;
+  margin: 0 auto;
+  color: #FF4898;
+  opacity: 0.1;
+
+}
+
+#dev-text {
+  color: #f7f7e8;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 10px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 580px;
+
+}
+
+/*----------------------------------------------PROFILE------------------------------------------*/
+
+.middle-container {
+  background-color: #FDFDF3;
+}
+
+.hello-text {
+  padding-top: 50px;
+  text-align: center;
+  margin: auto 0;
+}
+
+
+.profile {
+  width: 50%;
+  margin: 50px auto 25px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.academy {
+  color: #E9114C;
+}
+
+.profile-part-2 {
+  width: 50%;
+  margin: 25px auto 65px auto;
+  line-height: 2;
+  text-align: justify;
+}
+
+.profile-pic {
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-pic:focus {
+  outline: 0;
+}
+
+/*-----------------------------------------------SKILLS-------------------------------------*/
+
+.skills {
+  margin: 65px auto 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row:focus {
+  outline: 0;
+}
+
+.skill-row-part-2 {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.my-skills-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: -25px;
+}
+
+#skills {
+  margin: 20px auto;
+}
+
+/*--------------------------------------------CONTACTS-----------------------------------------*/
+
+.bottom-container {
+  background-color: #FDFDF3;
+}
+
+.get-in-touch-text {
+  padding-top: 20px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.btn {
+   border-radius: 100px;
+   height: 12px;
+   line-height: 12px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 189px;
+   font-size: 19px;
+   font-weight: 600;
+   padding: 20px;
+   background-color: #DA1F74;
+   border: solid #FFFFFF 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto;
+}
+
+.btn:hover {
+   background: #F24593;
+   webkit-border-radius: 100px;
+   moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+a {
+  color: #DA1F74;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF7EB3;
+}
+
+.bottom-links {
+  margin: 20px auto;
+}
+
+/*---------------------------------------------FOOTER------------------------------------------*/
+
+.copyright {
+  font-size: 0.75em;
+  padding: 20px 0 0;
+}
+
+.made-in {
+  font-size: 0.75em;
+  padding: 0;
+}
+
+.bottom-img {
+  position: relative;
+}
+
+.butterfly-pic {
+  position: absolute;
+  top: 0;
+  right: 90px;
+  width: 10%;
+  height: auto;
+}
+
+.grass-pic {
+  position: relative;
+  width: 80%;
+}
